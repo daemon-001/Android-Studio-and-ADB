@@ -24,9 +24,23 @@
 
 ## Step 5: Set Up Environment Variables (Optional)
 If needed, add Android SDK path to environment variables:
-1. Go to **System Properties > Environment Variables**.
-2. Add `ANDROID_HOME` or `ANDROID_SDK_ROOT` with the SDK path.
+Find Your Android SDK Path
 
+### 1. Open Android Studio.
+- Go to File > Settings > Appearance & Behavior > System Settings > Android SDK.
+- Copy the SDK Location (e.g., `C:\Users\YourUser\AppData\Local\Android\Sdk`).
+
+### 2. Open Environment Variables
+- Press Win + R, type sysdm.cpl, and press Enter.
+- Go to the Advanced tab and click Environment Variables.
+
+### 3. Add a New System Variable
+- Click New under System Variables.
+- Set the Variable Name as `ANDROID_HOME` or `ANDROID_SDK_ROOT`.
+- Set the Variable Value to the SDK path you copied earlier.
+
+Click OK to close all windows.
+Restart your computer for changes to take effect.
 
 ## Step 6: Install Flutter (If Required)
 - Download Flutter from [flutter.dev](https://flutter.dev/)
