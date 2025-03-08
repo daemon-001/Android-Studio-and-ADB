@@ -7,22 +7,9 @@
 - Download the appropriate version for your operating system (Windows, macOS, Linux).
 
 ## Step 2: Install Android Studio
-### Windows:
 1. Run the downloaded `.exe` file.
 2. Follow the setup wizard and select necessary components.
 3. Click **Next** and install Android Studio.
-
-### macOS:
-1. Open the downloaded `.dmg` file.
-2. Drag and drop Android Studio into the Applications folder.
-
-### Linux:
-1. Extract the `.tar.gz` file.
-2. Open a terminal and navigate to the extracted folder.
-3. Run the command:
-   ```sh
-   ./studio.sh
-   ```
 
 ## Step 3: Initial Configuration
 - Open Android Studio.
@@ -37,17 +24,9 @@
 
 ## Step 5: Set Up Environment Variables (Optional)
 If needed, add Android SDK path to environment variables:
-
-### Windows:
 1. Go to **System Properties > Environment Variables**.
 2. Add `ANDROID_HOME` or `ANDROID_SDK_ROOT` with the SDK path.
 
-### macOS/Linux:
-Add the following to `.bashrc` or `.zshrc`:
-```sh
-export ANDROID_HOME=$HOME/Android/Sdk
-export PATH=$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH
-```
 
 ## Step 6: Install Flutter (If Required)
 - Download Flutter from [flutter.dev](https://flutter.dev/)
