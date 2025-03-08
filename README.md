@@ -1,4 +1,4 @@
-# Android Studio Setup Guide
+# Android Studio Initial Setup
 
 ## Step 1: Download Android Studio
 - Visit the official Android Studio website: [https://developer.android.com/studio](https://developer.android.com/studio)
